@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(blue.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box{
+    width: 450px;
+    height: 480px;
+    position: absolute;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-left: 150px;
+
+}
+.form-box2{
+    width: 450px;
+    height: 480px;
+    position: absolute;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-left: 850px;
+    margin-top: 90px;
+}
+
+.title{
+    margin-top: 250px;
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 60px;
+}
+.title1{
+    margin-top: 250px;
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 500px;
+}
+.input-group{
+    margin-top: 50px;
+    position: relative;
+    width: 280px;
+    transition: 0.5s;
+    left: 50px;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    position: 50px;
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+.select{
+    margin-left: 40px;
+    margin-top: 100px;
+    
+}
